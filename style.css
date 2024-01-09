@@ -1,0 +1,207 @@
+.top-header .navbar{
+    background: rgba(0,0,0, 0.7);
+    border-bottom: 1px solid bisque;
+}
+.top-header .navbar .navbar-brand{
+    padding-left: 20px;
+    font-size: 24px;
+    color: bisque
+}
+
+.sm-icons {
+    flex-direction: row;
+    padding-right: 20px;
+}
+.sm-icons .nav-link {
+    color: bisque;
+    padding-right: 1em;
+    font-size: 24px;
+}
+
+.navbar .nav-item .nav-link{
+    color: bisque;
+}
+
+.navbar-toggler{
+    background-color: bisque;
+}
+
+.introduction{
+    position: relative;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url("images/intro.jpg");
+}
+
+.product-intro{
+    padding-top: 40px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.product-advantages{
+    position: relative;
+    min-height: 700px;
+    padding: 40px 0px 40px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/advantage.jpg");
+    background-color: #5e6472;
+    background-blend-mode: soft-light;
+    color: white;
+    /*background-color: #5e6472;*/
+}
+
+.product-advantages .advantage .advantage-1, .advantage-2, .advantage-3{
+    height: 100%;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+.product-advantages .advantage .advantage-1{
+    border-image: linear-gradient(to bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.product-advantages .advantage .advantage-2{
+    border-image: radial-gradient(white, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.product-advantages .advantage .advantage-3{
+    border-image: linear-gradient(to top, white, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.product-advantages .advantage .advantage-1 .wrapper{
+    padding-top: 300px;
+}
+
+.product-advantages .advantage .advantage-2 .wrapper{
+    padding-top: 170px;
+}
+
+.product-advantages .advantage .advantage-3 .wrapper{
+    padding-top: 250px;
+}
+
+.product-advantages .advantage .advantage-4 .wrapper{
+    padding-top: 150px;
+}
+
+.product-gallery{
+    min-height: 500px;
+    max-height: 700px;
+    background-color: white;
+}
+
+.product-gallery .gallery-wrapper{
+    padding: 0;
+    max-height: 500px;
+}
+
+#carouselExampleDark{
+    max-height: 500px;
+}
+
+#carouselExampleDark .carousel-inner{
+    max-height: 500px;
+}
+
+#carouselExampleDark .carousel-inner .carousel-item{
+    min-height: 500px;
+    max-height: 700px;
+}
+
+#carouselExampleDark .carousel-inner .carousel-item:nth-child(2n+1) {
+    background-image: url("images/bg-2.png");
+}
+#carouselExampleDark .carousel-inner .carousel-item:nth-child(2n) {
+    background-image: url("images/bg-3.jpeg");
+}
+
+#carouselExampleDark .carousel-inner .carousel-item img{
+    position: absolute;
+    height: 100%;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 5rem;
+    color: #fff;
+    text-align: center;
+
+    /*width: 300px;*/
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#carouselExampleDark .carousel-inner .carousel-item .carousel-caption{
+margin-top: 10px;
+}
+
+
+.product-bottom{
+    position: relative;
+    padding: 40px 0px 40px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("images/power-3.jpg");
+    background-color: #5e6472;
+    background-blend-mode: soft-light;
+    color: bisque;
+    /*background-color: #5e6472;*/
+}
+
+
+
+.product-bottom, .product-advantages {
+    background-image: url(images/power-3.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    /*font-size: 60px;*/
+    align-items: center;
+    position: relative;
+}
+
+.product-advantages {
+color: #ffffff;
+}
+
+.product-bottom .bottom {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    z-index: 2;
+    text-align: center;
+}
+
+.product-bottom .bottom h3 {
+    margin-top: 100px;
+}
+
+.product-bottom .bottom p {
+    margin-top: 20px;
+}
+
+.product-bottom .bottom ul {
+    list-style: none;
+}
+
+.product-bottom .bottom ul a {
+    color: bisque;
+    text-decoration: none;
+}
+
+.parallax h3 {
+    z-index: 3;
+}
+
+.product-advantages {
+    background-image: url("images/advantage.jpg");
+}
